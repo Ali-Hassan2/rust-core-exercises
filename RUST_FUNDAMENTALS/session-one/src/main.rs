@@ -1,5 +1,6 @@
 mod basics;
 mod ownership;
+mod struct_enum;
 
 fn main() {
     println!("Hello, world!");
@@ -13,4 +14,6 @@ fn main() {
     basics::functions::run();
 
     ownership::ownerships::run();
+
+    struct_enum::structs::run();
 }
