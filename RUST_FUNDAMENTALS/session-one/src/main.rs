@@ -2,6 +2,7 @@ mod basics;
 mod ownership;
 mod struct_enum;
 mod vectors_hash_maps;
+mod error_handling;
 
 fn main() {
     println!("Hello, world!");
@@ -19,5 +20,7 @@ fn main() {
     struct_enum::structs::run();
     struct_enum::enums::run();
 
-    vectors_hash_maps::vecotrs_h::run()
+    vectors_hash_maps::vecotrs_h::run();
+
+    error_handling::error_handling_imp::run();
 }
