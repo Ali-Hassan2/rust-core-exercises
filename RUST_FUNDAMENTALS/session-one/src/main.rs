@@ -3,6 +3,7 @@ mod ownership;
 mod struct_enum;
 mod vectors_hash_maps;
 mod error_handling;
+mod asyncm;
 
 fn main() {
     println!("Hello, world!");
@@ -23,4 +24,6 @@ fn main() {
     vectors_hash_maps::vecotrs_h::run();
 
     error_handling::error_handling_imp::run();
+
+    asyncm::asynchronous::run()
 }
