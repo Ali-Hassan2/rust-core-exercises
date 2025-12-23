@@ -16,4 +16,5 @@ fn main() {
     ownership::ownerships::run();
 
     struct_enum::structs::run();
+    struct_enum::enums::run();
 }
