@@ -2,6 +2,12 @@ use axum:: Router;
 use dotenvy:: dotenv;
 use std::net::SocketAddr;
 
+mod db;
+mod models;
+mod handlers;
+mod routes;
+mod config;
+
 
 #[tokio::main]
 fn main() {
